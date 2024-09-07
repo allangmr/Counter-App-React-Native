@@ -5,7 +5,7 @@ import { FAB } from "react-native-paper";
 import Icon from 'react-native-vector-icons/Ionicons';
 
 export const CounterM3Screen = () => {
-    const [counter, setCounter] = useState(10)
+    const [counter, setCounter] = useState(0)
   return (
     <View style={globalStyles.centerContainer}>
         <Text style={globalStyles.title}>{counter}</Text>
